@@ -4,7 +4,7 @@
 
 ## The question
 
-**Which wards in Ado-Odo/Ota LGA are located more than 5 km from a health facility?**
+**Which wards in Ado-Odo/Ota LGA, Ogun State, are more than 5 km from a health facility?**
 
 ## Why It Matters
 
