@@ -1,0 +1,64 @@
+# Data notes
+
+## GRID3 Nigeria Operational Wards v3.0 (published 15th July 2026)
+- Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v3-0/about
+- Dataset: Nigeria Operational Wards (GRID3) for Nigeria Ward Level Boundaries
+- Downloaded: 20th September 2026
+- Study area: Ado-Odo/Ota LGA, Ogun State
+- 5872 features, polygons 
+- Columns: OBJECTID (integer64), country (text), iso3 (text), state (text), statecode (text), lga (text) lga_alt_names (text), ward (text), ward_alt_names (text), ward_v1_grid3 (text), ward_in_grid3_ward_list (decimal), multipart_count (decimal), source (text), date (date), area_sqkm (decimal).
+- Columns_type: Text(string), Decimal(double), Integer(64 bit)
+- Geometry: Polygon (MultiPolygon)
+- Null values: No nulls in the ward column
+- Coverage: The Nigeria Operational Wards Geopackage file from Grid3 doesn't fully represent the boundary or cover the study area well.
+- Notes: This layer was used to identify and define the Nigeria Ward Level Boundaries  of Ado-Odo/Ota LGA.
+
+
+## GRID3 Nigeria LGA Boundaries 
+- Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about
+- Dataset: Nigeria LGA Level Boundaries (GRID3)
+- Downloaded: 20th September 2026
+- Study area: Ado-Odo/Ota LGA, Ogun State
+- 774 features, polygons 
+- Columns: FID (integer), globalid (text), uniq_id (decimal), timestamp (date&time), editor (text), lganame (text), lgacode (decimal), statename (text), statecode (text), source (text), amapcode (text).
+- Columns_type: Text(string), Decimal(double), Integer(64)
+- Geometry: Polygon (MultiPolygon)
+- Null values: No nulls in the lganame column
+- Coverage: The Nigeria LGA Level Boundaries from Grid3 doesn't fully represent the boundary or cover the study area well, the some part of the boundaries are missing and doesn't fit .
+- Notes: This layer was used to identify and define the Nigeria LGA Level Boundaries  of Ado-Odo/Ota LGA.
+
+
+## GRID3 Nigeria Operational State Boundaries 
+- Source: 
+- Dataset: Nigeria Operational State (GRID3) for Nigeria Ward Level Boundaries
+- Downloaded: 20th September 2026
+- Study area: Ado-Odo/Ota LGA, Ogun State
+- 20 features, polygons 
+- Columns: Fid (integer), globalid (text), uniq_id (decimal), timestamp (date&time), editor (text), lganame (text), lgacode (decimal), statename (text), statecode (text), source (text), amapcode (text). 
+- Geometry: Polygon (MultiPolygon)
+- Null values: No nulls in the statename column
+- Coverage: The Nigeria Operational State Boundaries file from Grid3 fully represent the boundary and cover the study area well.
+- Notes: This layer was used to identify and define the Nigeria Ward Level Boundaries  of Ado-Odo/Ota LGA.
+
+## GRID3 Nigeria Health Facilities v3.0 (published 13th August 2026) 
+- Source: https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6/about
+- Dataset: Health Facilities in Ado-Odo/Ota (GRID3) 
+- Downloaded: 20 September 2026
+- Study area: Ado-Odo/Ota LGA, Ogun State
+- Features: 289 features, points
+- Geometry: Point (Point)
+- Columns: OBJECTID (decimal), unique_id, latitude, longitude, country, iso, state_standard, lga_standard, ward_standard, ward boundary, facility_name, alt_name,  settlement_name, facility_level etc.
+- Null values: No Null value in facility_name
+- Coverage: Health facilities are properly mapped in the study area, but there is a n eed to determine if these facilities are still in good congition and functional for human use
+- Notes: This layer will be used to assess the accessibility of wards to health facilities in Ado-Odo/Ota LGA.
+
+
+## OSM roads, extracted via QuickOSM
+- Source: https://www.openstreetmap.org/
+- Query: highway =* within Ado_Odo_Ota_LGA_wards extent
+- Extracted: 20 September 2026
+- Features: 49562 lines
+- Geometry: Line (LineString)
+- Columns: fid, full_id, osm_id, osm_type, plant:source, seasonal, payment:bank   transfer, weather:rain, motorcycle, junction, motorroad, motor_vehicle etc.
+- Coverage: Roads are well represented, it covers the roads within the LGA.
+Notes: The road network was extracted from OpenStreetMap using the QuickOSM plugin in QGIS.
