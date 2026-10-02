@@ -60,5 +60,5 @@
 - Features: 49562 lines
 - Geometry: Line (LineString)
 - Columns: fid, full_id, osm_id, osm_type, plant:source, seasonal, payment:bank   transfer, weather:rain, motorcycle, junction, motorroad, motor_vehicle etc.
-- Coverage: Roads are well represented; it covers the roads within the LGA.
+- Coverage: The roads cover the LGA. Several road features are missing names (Null) and surface information, such as: road, construction, covered, cutting, embankment, psv, bus, motor vehicle, lit, sidewalk, service, horse, bicycle, access, foot, lanes, surface, bridge, ref, one_way, name, lanes. Majority of the features are unpaved and have null values, which doesnt give clarity on which areas are paved in the LGA. 
 - Notes: The road network was extracted from OpenStreetMap using the QuickOSM plugin in QGIS.
