@@ -25,11 +25,11 @@
 - Geometry: Polygon (MultiPolygon)
 - Null values: No nulls in the lganame column
 - Coverage: The Nigeria LGA Level Boundaries from Grid3 don't fully represent the boundary or cover the study area well; some parts of the boundaries are missing and don't fit.
-- Notes: This layer was used to identify and define the Nigeria LGA Level Boundaries  of Ado-Odo/Ota LGA.
+- Notes: This layer was used to identify and define the Nigeria LGA-level boundaries  of Ado-Odo/Ota LGA.
 
 
 ## GRID3 Nigeria Operational State Boundaries 
-- Source: 
+- Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about
 - Dataset: Nigeria Operational State (GRID3) for Nigeria Ward-Level Boundaries
 - Downloaded: 20th September 2026
 - Study area: Ado-Odo/Ota LGA, Ogun State
