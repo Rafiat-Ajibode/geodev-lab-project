@@ -20,13 +20,11 @@ The geographic distance between communities and health facilities affects access
 
 ## The Dataset Sources
 
-- **Ward boundaries:** - (GRID3 Nigeria – Geospatial Data) - https://grid3.org/geospatial-data-nigeria - GeoPackage - 190 MB
+- **Ward boundaries:** - (GRID3 Nigeria – Geospatial Data) - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v3-0/about - GeoPackage - 191 MB
+- **State Boundaries** - (GRID3 Nigeria – Geospatial Data) - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about - GeoPackage - 2 MB
+- **LGA and administrative boundaries:** - (GRID3 Nigeria – Geospatial Data) - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about - GeoPackage - 4.3 MB
 - **Health facility locations:** - (GRID3 Nigeria – Geospatial Data) - https://grid3.org/geospatial-data-nigeria - GeoPackage - 16 MB
-- **LGA and administrative boundaries:** - (Humanitarian Data Exchange (HDX) – Nigeria Subnational Administrative Boundaries) - https://data.humdata.org/dataset/cod-ab-nga 
-- **Road network data:**
-  - (Humanitarian OpenStreetMap Team (HOTOSM))- https://data.humdata.org/dataset/hotosm_nga_roads  /
-  - (GRID3 – Geospatial Data Nigeria) - https://grid3.org/geospatial-data-nigeria  /
-  - (OSM via QuickOSM) - https://plugins.qgis.org/plugins/QuickOSM/ - extracted for Ado-Odo/Ota LGA
+- **Road network data:** - (OSM via QuickOSM) - https://plugins.qgis.org/plugins/QuickOSM/ - extracted for Ado-Odo/Ota LGA
 - **Population Data:** - (GRID3 Nigeria – Geospatial Data) / (WorldPop) – https://grid3.org/geospatial-data-nigeria / https://www.worldpop.org - 43.61 MB
 
 ## What I would build
