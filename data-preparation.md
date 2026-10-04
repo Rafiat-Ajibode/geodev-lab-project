@@ -19,23 +19,27 @@ All layers (roads, health facilities, wards) were clipped to the study area, the
 ## QUALITY NOTES
 
 # GRID3 Nigeria Ado-Odo/Ota LGA Boundaries
-The clipped study area aligns well with the satellite imagery. Area check: Ado-Odo/Ota LGA:  square kilometers (does not match published figures, which state that the LGA has an area of  square km). This means that my computed area is about  square km larger than the published record.
+The clipped study area aligns with the satellite imagery to some extent, but it does not blend with the edges shown in the satellite imagery.
 
-## OSM Roads, Ado-Odo/Ota LGA
+# GRID3 Nigeria Ado-Odo/Ota Operational Wards
+The clipped Wards_in_Ado_Odo_Ota_LGA aligns with the satellite imagery almost 90%, but it does not match the boundary edges shown in the imagery. The wards were edited and published 30th June 2026
+
+# OSM Roads, Ado-Odo/Ota LGA
 - Extracted [20th September 2026] via Quick OSM, highway=*
-- 25578 features
-- COMPLETENESS: 
-- CURRENCY: 
-- POSITIONAL: 
-- ATTRIBUTE: 
-- FITNESS: 
+- 25578 features, reprojected and clipped
+- COMPLETENESS: good in built-up areas; covers 90% of roads within the study area, sparse at the northwestern and southwestern edges.   
+- CURRENCY: most edits 2020-2024. New (6) structures within the Polytechnic (OGITECH, Igbesa) on Lusada-Igesa road are not present
+- POSITIONAL: roads align well with satellite imagery; no systematic offset visible.
+- ATTRIBUTE: Only about 10% or less carry a surface tag, so paved and unpaved cannot be separated reliably
+- FITNESS: it's adequate for access analysis in the built-up area, but not adequate for a tag-related (paved) question.
 
-## GRID3 Nigeria, Ado-Odo/Ota LGA Health Facilities v3.0 (published 13th August 2026)
+# GRID3 Nigeria, Ado-Odo/Ota LGA Health Facilities v3.0 (published 13th August 2026)
 - Extracted [20th September 2026] 
-- 287 features
-- COMPLETENESS:  
-- CURRENCY: 
-- POSITIONAL: 
-- ATTRIBUTE: 
-- FITNESS: 
-- CORRECTIONS:
+- 287 features, reprojected and clipped
+- COMPLETENESS: covers 80% of known health facilities within the study area.
+- CURRENCY: the health facilities were edited and published 13th August 2026.
+- POSITIONAL: there were a few duplications, and some facilities didn't align with satellite imagery.
+- ATTRIBUTE: all were properly tagged for analysis, but had some null values for facility_type, level, ownership, and functionality of the facilities.
+- FITNESS: It's adequate for analysis but will require some corrections concerning the duplicates and null values.
+
+
