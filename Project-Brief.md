@@ -4,11 +4,11 @@
 
 ## The question
 
-**Which wards in Ado-Odo/Ota LGA, Ogun State, are more than 5 km from a health facility?**
+**Which wards in Ado-Odo/Ota Local Government Area, Ogun State, Nigeria, are more than 2km from a health facility?**
 
 ## Why It Matters
 
-The geographic distance between communities and health facilities affects access to essential healthcare services. Identifying underserved wards located more than 5 km from a health facility can help reveal areas where residents may have limited access to healthcare and inform decisions on where adequate access to health facilities or services should be prioritized in Ado-Odo/Ota LGA, Ogun State.
+The geographic distance between communities and health facilities affects access to essential healthcare services. Identifying underserved wards located more than 2 km from a health facility can help reveal areas where residents may have limited access to healthcare and inform decisions on where adequate access to health facilities or services should be prioritized in Ado-Odo/Ota LGA, Ogun State.
 
 ## The Data I need 
 
@@ -31,7 +31,7 @@ The geographic distance between communities and health facilities affects access
 
 ## What I would build
 
-Using the ward boundaries and health-facility locations, I can create a 5-km health-service accessibility map showing which wards fall outside the 5-km distance from the nearest health facility. The analysis can help government and planners prioritise underserved wards for new health centres, upgrading existing facilities, mobile healthcare services, or improved referral/access arrangements. Adding the population data would make the result more useful because I can estimate how many residents are affected in each underserved ward, rather than only identifying the locations.
+Using the ward boundaries and health-facility locations, I can create a 5-km health-service accessibility map showing which wards fall outside the 5-km distance from the nearest health facility. The analysis can help government and planners prioritise underserved wards for new health centres, upgrading existing facilities, mobile healthcare services, or improved referral/access arrangements. Adding the population data would make the results more useful because I can estimate how many residents are affected in each underserved ward, rather than only identifying the locations.
 
 The results would be useful to the following parastatals:
 - Ogun State Ministry of Health
