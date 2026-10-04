@@ -1,6 +1,6 @@
 # My GeoDev Lab Africa Project
 
-Which wards in Ado-Odo/Ota Local Government Area are located more than 5 km from a health facility?
+Which wards in Ado-Odo/Ota Local Government Area, Ogun State, Nigeria, are more than 2km from a health facility?
 
 Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Africa, Cohort One.
 
