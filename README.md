@@ -7,7 +7,7 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 ## Kindly see the 'Project-Brief.md' for the full project brief.
 
 ## Month 1: GIS Foundations and getting the data
-- [Week 1: Project-Brief](Project.Brief.md)
+- [Week 1: Project-Brief](Project-Brief.md)
 - [Week 2: Data-notes](data-notes.md)
 - [Week 3: Data-preparation](data-preparation.md)
 - [Week 4: Month-1-summary](month-1-summary.md)
