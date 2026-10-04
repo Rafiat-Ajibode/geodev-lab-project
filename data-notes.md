@@ -40,6 +40,7 @@
 - Coverage: The Nigeria Operational State Boundaries file from Grid3 fully represents the boundary and covers the study area well.
 - Notes: This layer was used to identify and define the Nigeria Ward Level Boundaries  of Ado-Odo/Ota LGA.
 
+
 ## GRID3 Nigeria Health Facilities v3.0 (published 13th August 2026) 
 - Source: https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6/about
 - Dataset: Health Facilities in Ado-Odo/Ota (GRID3) 
@@ -60,5 +61,13 @@
 - Features: 49562 lines
 - Geometry: Line (LineString)
 - Columns: fid, full_id, osm_id, osm_type, plant:source, seasonal, payment:bank   transfer, weather:rain, motorcycle, junction, motorroad, motor_vehicle etc.
-- Coverage: The roads cover the LGA. Several road features are missing names (Null) and surface information, such as: road, construction, covered, cutting, embankment, psv, bus, motor vehicle, lit, sidewalk, service, horse, bicycle, access, foot, lanes, surface, bridge, ref, one_way, name, lanes. Majority of the features are unpaved and have null values, which doesnt give clarity on which areas are paved in the LGA. 
+- Coverage: The roads cover the LGA. Several road features are missing names (Null) and surface information, such as: road, construction, covered, cutting, embankment, psv, bus, motor vehicle, lit, sidewalk, service, horse, bicycle, access, foot, lanes, surface, bridge, ref, one_way, name, lanes. The majority of the features are unpaved and have null values, which doesn't give clarity on which areas are paved in the LGA. 
 - Notes: The road network was extracted from OpenStreetMap using the QuickOSM plugin in QGIS.
+
+  
+## CRS and preparation
+- All source layers arrived in EPSG:4326 
+- Study area: Ado-Odo/Ota LGA, Ogun State, Nigeria, extracted from GRID3 Nigeria LGA Boundaries 
+- All layers clipped to study area, then reprojected to EPSG:32631 (UTM 31N) 
+- Area check: Ado-Odo/Ota LGA 853 km2, matches published figure 
+- Working files in data/processed/, raw files untouched 
