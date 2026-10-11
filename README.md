@@ -16,5 +16,6 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 [Ado-Odo/Ota Ward Boundaries]( )
 
 ## Month 2: Development environment and early Python
-- Week 5: Setup Python, VS Code, and the terminal. 'hello.py' runs
+- Week 5: set up Python, VS Code, and the terminal. 'hello.py' runs
+- Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
   
