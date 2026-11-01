@@ -22,4 +22,9 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 - Week 8: inspect_data.py summarises depth and yield in mywards_in_Ado_Odo_Ota.csv data for Ado-Odo/Ota Local Government Area, Ogun State, Nigeria
 - Week 9: summary.py, containing the three functions, summarise_all, and the lines that run it on your data for my area_km2 and multipart_count fields.
   
-## Month 2 Reflection
+### Month 2 Reflection
+The capstone shows how Month 1 values in the attribute table match the results gotten from Python, i.e., 16 count for the wards, smallest, largest, and average values in Ado Odo/Ota LGA, Ogun State, Nigeria.
+This shows how the values read in the attribute table "(my_wards_in_Ado_Odo_Ota.csv)" in QGIS can be automated with a script in Python
+The value output for Week8 task "inspect_data.py": count, smallest, and largest values align with the columns "area_km2 and multipart_count"
+This file, summary.py, refactored output matches inspect_data.py to create cleaner code without any change
+The capstone summarises at least two columns from my Month 1 dataset in QIS
