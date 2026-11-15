@@ -28,3 +28,7 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 - The value output for Week8 task "inspect_data.py": count, smallest, and largest values align with the columns "area_km2 and multipart_count"
 - This file, summary.py, refactored output matches inspect_data.py to create cleaner code without any change
 - The capstone summarises at least two columns from my Month 1 dataset in QIS
+
+## Month 3: geospatial Python and automation
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my wards layer in 
+code.
