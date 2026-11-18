@@ -30,5 +30,6 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 - The capstone summarises at least two columns from my Month 1 dataset in QIS
 
 ## Month 3: geospatial Python and automation
-- Week 10: GeoPandas. Loaded, checked, joined and mapped my wards layer in 
-code.
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my_wards layer in code.
+- Week 11: CRS and spatial operations. Reprojected to EPSG:32631 and measured health facility reach
+
