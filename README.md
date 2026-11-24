@@ -32,4 +32,5 @@ Built over twelve months (from September 2026 to August 2027) with GeoDev Lab Af
 ## Month 3: geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my_wards layer in code.
 - Week 11: CRS and spatial operations. Reprojected to EPSG:32631 and measured health facility reach
+- Week 12: Rasters. Computed [your index] for [your area] and summarised it per [polygon type].
 
